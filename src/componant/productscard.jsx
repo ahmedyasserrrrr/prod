@@ -34,7 +34,7 @@ const Productscard = () => {
                 <Link className="navbar-brand text-white" href="/">
                     Shopo Shop
                     </Link>
-         <input type="search" className=' form-control m-auto' placeholder='search product' value={search} onChange={handlesearch} />
+         <input type="search" className=' form-control-sm m-auto' placeholder='search product' value={search} onChange={handlesearch} />
           
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                    Menu               
